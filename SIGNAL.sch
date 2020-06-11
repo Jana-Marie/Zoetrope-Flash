@@ -187,7 +187,7 @@ AR Path="/5EEF0BF9" Ref="D?"  Part="1"
 AR Path="/5EECA601/5EEF0BF9" Ref="D5"  Part="1" 
 F 0 "D5" V 3354 3072 50  0000 R CNN
 F 1 "D" V 3445 3072 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 3400 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3400 3150 50  0001 C CNN
 F 3 "~" H 3400 3150 50  0001 C CNN
 	1    3400 3150
 	0    1    1    0   
@@ -408,15 +408,15 @@ $EndComp
 $Comp
 L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
 U 1 1 5EEF0C6E
-P 2550 3200
+P 2550 3100
 AR Path="/5EEF0C6E" Ref="J?"  Part="1" 
 AR Path="/5EECA601/5EEF0C6E" Ref="J6"  Part="1" 
-F 0 "J6" H 2637 3022 50  0000 L CNN
-F 1 "IN" H 2637 3113 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 2550 3200 50  0001 C CNN
-F 3 "~" H 2550 3200 50  0001 C CNN
-	1    2550 3200
-	-1   0    0    1   
+F 0 "J6" H 2637 2922 50  0000 L CNN
+F 1 "IN" H 2637 3013 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 2550 3100 50  0001 C CNN
+F 3 "~" H 2550 3100 50  0001 C CNN
+	1    2550 3100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 2950 2800 3100
@@ -429,15 +429,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EEF0C78
-P 2550 2900
+P 2550 3400
 AR Path="/5EEF0C78" Ref="#PWR?"  Part="1" 
 AR Path="/5EECA601/5EEF0C78" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 2550 2650 50  0001 C CNN
-F 1 "GND" H 2555 2727 50  0000 C CNN
-F 2 "" H 2550 2900 50  0001 C CNN
-F 3 "" H 2550 2900 50  0001 C CNN
-	1    2550 2900
-	-1   0    0    1   
+F 0 "#PWR0151" H 2550 3150 50  0001 C CNN
+F 1 "GND" H 2555 3227 50  0000 C CNN
+F 2 "" H 2550 3400 50  0001 C CNN
+F 3 "" H 2550 3400 50  0001 C CNN
+	1    2550 3400
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?

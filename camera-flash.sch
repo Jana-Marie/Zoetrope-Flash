@@ -525,8 +525,8 @@ L Connector:Screw_Terminal_01x01 J?
 U 1 1 5EE5DDE3
 P 5950 6200
 AR Path="/5EEC9ABE/5EE5DDE3" Ref="J?"  Part="1" 
-AR Path="/5EE5DDE3" Ref="J?"  Part="1" 
-F 0 "J?" H 6030 6242 50  0000 L CNN
+AR Path="/5EE5DDE3" Ref="J11"  Part="1" 
+F 0 "J11" H 6030 6242 50  0000 L CNN
 F 1 "GND" H 6030 6151 50  0000 L CNN
 F 2 "otter:Screw_Terminal_6x6x6mm" H 5950 6200 50  0001 C CNN
 F 3 "~" H 5950 6200 50  0001 C CNN
