@@ -35,10 +35,6 @@ F 3 "" H 2950 3550 50  0001 C CNN
 	1    2950 3550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2950 4050 2950 4150
-Wire Wire Line
-	2950 4250 2950 4350
 $Comp
 L power:GND #PWR0102
 U 1 1 5EC72836
@@ -61,10 +57,6 @@ F 3 "" H 2050 5050 50  0001 C CNN
 	1    2050 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 4100 2    50   Input ~ 0
-D-
-Text GLabel 2950 4300 2    50   Input ~ 0
-D+
 NoConn ~ 2950 4650
 NoConn ~ 2950 4750
 $Comp
