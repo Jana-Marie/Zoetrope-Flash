@@ -27,7 +27,7 @@ F 3 "" H 4800 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L otter:TLP2366 U?
+L camera-flash-rescue:TLP2366-otter U?
 U 1 1 5EEF0BAF
 P 3850 3150
 AR Path="/5EEF0BAF" Ref="U?"  Part="1" 

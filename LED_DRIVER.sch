@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L otter:lm3406 U3
+L camera-flash-rescue:lm3406-otter U3
 U 1 1 5EEE41A3
 P 3700 2600
 F 0 "U3" H 3450 3400 50  0000 C CNN
@@ -199,7 +199,7 @@ L Device:R_Small R9
 U 1 1 5EEE4205
 P 4950 2950
 F 0 "R9" H 5009 2996 50  0000 L CNN
-F 1 "R_Small" H 5009 2905 50  0000 L CNN
+F 1 "0.4" H 5009 2905 50  0000 L CNN
 F 2 "otter:R_0805" H 4950 2950 50  0001 C CNN
 F 3 "~" H 4950 2950 50  0001 C CNN
 	1    4950 2950
@@ -326,7 +326,7 @@ $EndComp
 Wire Wire Line
 	3200 2800 3250 2800
 $Comp
-L otter:lm3406 U4
+L camera-flash-rescue:lm3406-otter U4
 U 1 1 5EEE4255
 P 3700 5550
 F 0 "U4" H 3450 6350 50  0000 C CNN
@@ -511,7 +511,7 @@ L Device:R_Small R10
 U 1 1 5EEE42B7
 P 4950 5900
 F 0 "R10" H 5009 5946 50  0000 L CNN
-F 1 "R_Small" H 5009 5855 50  0000 L CNN
+F 1 "0.4" H 5009 5855 50  0000 L CNN
 F 2 "otter:R_0805" H 4950 5900 50  0001 C CNN
 F 3 "~" H 4950 5900 50  0001 C CNN
 	1    4950 5900
@@ -1140,9 +1140,11 @@ w/o Cap -> use small cap (100nF?)\n^IL = ^IF = ((Vin - Vo) / L ) * ton = 127mA r
 Text Notes 12300 4700 0    50   ~ 0
 Cin (min) = (IF * ton) / ^Vin (max) = 5µF\n^Vin (max) = 100mV
 $Comp
-L otter:ONSC-NMOS-8_E Q2
+L camera-flash-rescue:ONSC-NMOS-8_E-otter Q2
 U 1 1 5EE8D31F
 P 5700 5450
+AR Path="/5EE8D31F" Ref="Q2"  Part="1" 
+AR Path="/5EEC9ABE/5EE8D31F" Ref="Q2"  Part="1" 
 F 0 "Q2" H 6070 5328 60  0000 L CNN
 F 1 "ONSC-NMOS-8_E" H 5050 5550 60  0000 L CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 5450 60  0001 C CNN
@@ -1154,9 +1156,11 @@ Wire Wire Line
 	5500 5650 5500 5750
 Connection ~ 5500 5750
 $Comp
-L otter:ONSC-NMOS-8_E Q1
+L camera-flash-rescue:ONSC-NMOS-8_E-otter Q1
 U 1 1 5EEA5B2C
 P 5700 2500
+AR Path="/5EEA5B2C" Ref="Q1"  Part="1" 
+AR Path="/5EEC9ABE/5EEA5B2C" Ref="Q1"  Part="1" 
 F 0 "Q1" H 6070 2378 60  0000 L CNN
 F 1 "ONSC-NMOS-8_E" H 5050 2600 60  0000 L CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5700 2500 60  0001 C CNN
