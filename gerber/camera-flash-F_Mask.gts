@@ -1,14 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.5+dfsg1-2build2*
-G04 #@! TF.CreationDate,2020-08-12T20:41:45+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.0-d3dd2cf0fa~116~ubuntu20.04.1*
+G04 #@! TF.CreationDate,2022-01-19T00:36:28+01:00*
 G04 #@! TF.ProjectId,camera-flash,63616d65-7261-42d6-966c-6173682e6b69,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.5+dfsg1-2build2) date 2020-08-12 20:41:45*
+G04 Created by KiCad (PCBNEW 6.0.0-d3dd2cf0fa~116~ubuntu20.04.1) date 2022-01-19 00:36:28*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 %ADD10C,3.000000*%
 %ADD11C,3.100000*%
